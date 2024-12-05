@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Riya Singh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html">Riya Singh</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects-page">
+        <div class="projects-container">
+            <h1 class="section-title" data-aos="fade-down">
+                <span class="title-icon"><i class="fas fa-code-branch"></i></span>
+                Featured Projects
+            </h1>
+            
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/portfolio-project.jpg" alt="Personal Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-type">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="tech-badge"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="tech-badge"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            A Personal Portfolio is a digital showcase of your work, skills, experiences, and achievements. It's a platform where you can present your professional journey and demonstrate your abilities to potential employers, clients, or collaborators.
+                        </p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-star"></i> Key Features</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Responsive Design</li>
+                                <li><i class="fas fa-check"></i> Modern UI/UX</li>
+                                <li><i class="fas fa-check"></i> Interactive Elements</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://riyasingh-portfolio-0702.netlify.app/" class="project-btn" target="_blank">
+                                <i class="fas fa-globe"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Whack a Hole Game">
+                        <div class="project-overlay">
+                            <div class="project-type">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Game Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Whack a Hole Game</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="tech-badge"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="tech-badge"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            An interactive browser-based game where players test their reflexes by clicking on targets that randomly appear in holes. The game features increasing difficulty levels and a scoring system to track player performance.
+                        </p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-star"></i> Key Features</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Dynamic Difficulty Levels</li>
+                                <li><i class="fas fa-check"></i> Score Tracking</li>
+                                <li><i class="fas fa-check"></i> Animated Characters</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://whackgame.netlify.app/" class="project-btn" target="_blank">
+                                <i class="fas fa-globe"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
